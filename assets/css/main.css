@@ -4000,5 +4000,17 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+#banner ul.actions {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto !important;
+  padding-left: 0;
+}
+
+#banner ul.actions li {
+  margin-left: 0;
+}
+
 
 

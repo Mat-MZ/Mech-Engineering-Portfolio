@@ -2423,17 +2423,17 @@ input, select, textarea {
 		flex-direction: column;
 		font-size: 0.8em;
 		font-weight: 600;
-		height: 3.125em;
+		height: auto;
 		letter-spacing: 0.225em;
-		line-height: 3.125em;
+		line-height: 1.2;
 		max-width: 30em;
-		padding: 0 2.75em;
+		padding: 0.9em 2.75em;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: normal;
-		overflow: hidden;
-		text-overflow: ellipsis;
+		overflow: visible;
+		text-overflow: unset;
 	}
 
 		input[type="submit"]:hover,
@@ -3999,3 +3999,4 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+

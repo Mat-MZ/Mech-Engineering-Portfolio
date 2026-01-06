@@ -2182,9 +2182,10 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		justify-content: center;
 		cursor: default;
 		list-style: none;
-		margin-left: -1em;
+		margin-left: 0;
 		padding-left: 0;
 	}
 
@@ -3999,4 +4000,5 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
 

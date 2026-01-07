@@ -2543,6 +2543,18 @@ input, select, textarea {
 			margin-right: auto; /* creates space so it doesn’t overlap below */
  			 align-self: center;    /* centers it even though .button is display:flex */
 		}
+#banner,
+#banner .inner {
+  text-align: center;
+}
+.hero-cta {
+  display: inline-flex;      /* key fix */
+  justify-content: center;
+  align-items: center;
+
+  margin: 1.5rem auto 5rem;  /* spacing; adjust as needed */
+}
+
 
 
 /* Features */
@@ -4019,6 +4031,7 @@ input, select, textarea {
 #banner ul.actions li {
   margin-left: 0;
 }
+
 
 
 

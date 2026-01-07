@@ -2538,7 +2538,9 @@ input, select, textarea {
 		}
 		.hero-cta {
  		 margin-top: -2rem;     /* raises the button */
- 			 margin-bottom: 3rem;   /* creates space so it doesn’t overlap below */
+ 			 margin-bottom: 3rem; 
+			margin-left: auto;
+			margin-right: auto; /* creates space so it doesn’t overlap below */
  			 align-self: center;    /* centers it even though .button is display:flex */
 		}
 
@@ -4017,6 +4019,7 @@ input, select, textarea {
 #banner ul.actions li {
   margin-left: 0;
 }
+
 
 
 

@@ -3997,7 +3997,11 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #page-wrapper {
-		background: none;
+    background-image: url("../../images/RC Car Upper Deck.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 	}
 
 	body.is-mobile.landing #banner,

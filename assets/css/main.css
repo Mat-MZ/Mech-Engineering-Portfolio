@@ -3837,7 +3837,7 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: url("../../images/RC Car Upper Deck.jpg");
+		background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../../images/RC Car Upper Deck.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;

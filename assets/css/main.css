@@ -3984,7 +3984,7 @@ input, select, textarea {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: url("../../images/RC Car Upper Deck.jpg");
+		background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../../images/RC Car Upper Deck.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3997,7 +3997,7 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #page-wrapper {
-    background-image: url("../../images/RC Car Upper Deck.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../../images/RC Car Upper Deck.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
